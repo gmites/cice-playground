@@ -1,0 +1,21 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1 2fr 1fr;
+    grid-template-areas:
+    'h . . '
+    '. s s '
+    '. . f';
+}
+
+.header{
+    grid-area: h;
+}
+.section{
+    grid-area: s;
+}
+.footer{
+    grid-area: f;
+}
+
+

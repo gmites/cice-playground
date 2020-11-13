@@ -1,0 +1,27 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display:flex;
+    flex:1;
+}
+.content{
+    display: flex;
+    flex:2;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    flex:3.5;
+}
+
+.box{
+    flex: 1;
+}
+
+.main-header{
+    flex:2;
+}

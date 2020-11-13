@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer{
+    display:flex;
+    flex:1;
+}
+
+.content{
+    display: flex;
+    flex:3;
+}
+
+.box{
+    flex: 1;
+}
+
+.main-header{
+    flex:4;
+}
+
+.main-content{
+    flex:4;
+}

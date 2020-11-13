@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display:flex;
+    flex: 1;
+}
+.content{
+    display: flex;
+    flex:3;
+}
+
+.box{
+    flex: 1;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.main-content{
+    display: flex;
+    flex:2;
+}
+
+.box-no-border{
+    visibility: hidden;
+}
+
+.medium{
+    flex:2;
+}
+
+
+

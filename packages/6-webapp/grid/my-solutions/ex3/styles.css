@@ -1,0 +1,12 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.aside {
+  display: grid;
+  grid-template-rows: 2fr 2fr;
+}
+.main-content {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}

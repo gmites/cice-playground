@@ -1,0 +1,22 @@
+.wrapper,
+.header,
+.content,
+.footer {
+  display: grid;
+}
+
+.wrapper {
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+.header {
+  grid-template-columns: 3fr 1fr;
+}
+
+.content {
+  grid-template-columns: 1fr 3fr;
+}
+
+.footer {
+  grid-template-columns: 2fr 2fr;
+}
