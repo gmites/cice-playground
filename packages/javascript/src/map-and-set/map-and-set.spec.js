@@ -13,6 +13,11 @@ describe('map', () => {
     map.set('foo', 'bar')
     const actual = map.get('foo')
 
+    actual?.anchor('s')
+    if (actual !== undefined) {
+      actual.anchor('s')
+    }
+
     expect(actual).toBe('bar')
   })
 
